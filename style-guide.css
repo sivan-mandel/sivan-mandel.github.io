@@ -103,11 +103,39 @@ div.MainButton
 }
 
 
-li.promotion-feature-box
- {
 
- }
+/* forms */
 
+.searchbox
+{
+   display: inline-block;
+   background: white;
+   border: 1px solid #d2d2d2;
+   width: 150px;
+   border-radius: 5px;
+}
+
+.searchbox input[type="submit"] 
+{
+	background: url(../img/searchBtn.png) no-repeat center center;
+	text-indent: -9999px;
+	width: 26px;
+	float: right;
+	cursor: pointer;
+}
+
+.searchbox input[type="search"], input[type="email"]
+{
+font-size: 0.750em;
+background: none;
+padding: 2px 5px;
+overflow: hidden;
+color: #585951;
+}
+
+/* MODULES -------------------------------------------------------------*/
+
+/* promotion-features box ------------------------*/
 
 ul.promotion-features
 {
@@ -164,15 +192,110 @@ li.promotion-feature-box p
     text-decoration: underline;
  }
 
+
+<br><br>
+<br><br>
+
+/* event box -----------------------*/
+
+ul.events
+{
+     width: 960px;
+     height: 195px;
+}
+
+li.event
+{
+     width: 296px;
+     height: 192px;
+     color: white;
+}
+
+
+li.event h3
+{
+     width: 296px;
+     height: 39px;
+     font-size: 2.6em; 
+}
+
+
+li.event div.event-warpper
+{
+	 box-sizing: border-box;
+     width: 296px;
+     height: 120px;
+     float: left; 
+     padding: 1em;
+     background-color: rgba(256, 256, 256, 0.4);  
+     position: relative;
+}
+
+li.event p
+{
+	  width: 190px;
+      font-size: 1.4em; 
+      color: #1a1a1a;
+      display: inline;
+      margin-left: 5.5em;
+      overflow: none;
+      position: absolute;
+      left: 1em;
+      top: 1em;
+}
+     
+li.event div.date-warpper
+
+{
+     width: 70px;
+     height: 98px;
+     background-color: #3399cc;
+     margin-right: 10px;
+     text-align: center;
+     display: inline-block;
+     border-radius: 3px;
+}
+     
+li.event div.day
+
+{
+     width: 70px;
+     height: 66px;
+     font-size: 2.6em;
+
+
+}
+
+li.event div.month
+{
+     width: 70px;
+     height: 32px;
+     font-size: 1.6em;
+
+
+}
+
+li.event a.event-link
+{
+     width: 296px;
+     height: 120px;
+     padding: 1em;
+     background-color: rgba(256, 256, 256, 0.4);     
+}
+     
+li.event h3,p
+{
+     line-height: 1.5;
+}
+
+/*----------------------------------*/
+
 .ServiceIconBox
  {
 
  }
 
-.eventBox
-{
-	
-}
+
 
 .successStoryBox
 {
